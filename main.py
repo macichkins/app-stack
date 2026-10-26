@@ -2,7 +2,7 @@ import os
 from fastapi import FastAPI
 import redis.asyncio as redis
 
-app = FastAPI(title="DevOps Backend Server")
+app = FastAPI(title="ameba DevOps Backend Server")
 
 @app.get("/")
 async def root():
