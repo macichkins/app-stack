@@ -20,3 +20,5 @@ async def health_check():
         "redis_ping": ping,
         "database_url": os.getenv("DATABASE_URL")
     }
+
+
