@@ -6,7 +6,7 @@ app = FastAPI(title="ameba DevOps Backend Server")
 
 @app.get("/")
 async def root():
-    return {"status": "ok", "message": "amroka FastAPI is running on Lenovo Server!"}
+    return {"status": "ok", "message": "mmv 1611 FastAPI is running on Lenovo Server!"}
 
 @app.get("/health")
 async def health_check():
